@@ -11,6 +11,11 @@ Users can input text through a web frontend, which invokes an API Gateway endpoi
 
 ---
 
+## 🚀 Live Link
+👉 [Click here to use the app](http://tts-website-darius.s3-website-us-east-1.amazonaws.com)
+
+---
+
 ## 📖 Project Documentation
 
 ### 1. Objectives
@@ -143,6 +148,11 @@ API authentication (API keys / Cognito)
 CI/CD pipeline with GitHub Actions
 
 Support for long text with multipart Polly synthesis
+
+---
+
+## 🚀 Live Link
+👉 [Click here to use the app](http://tts-website-darius.s3-website-us-east-1.amazonaws.com)
 
 ---
 
