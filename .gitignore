@@ -1,0 +1,5 @@
+# Ignore AWS SAM build folder
+.aws-sam/
+
+# Ignore dependencies
+node_modules/
