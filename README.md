@@ -29,6 +29,9 @@ Users can input text through a web frontend, which invokes an API Gateway endpoi
 
 ### 2. System Architecture
 
+## 🏗 Architecture
+![System Architecture](assets/architecture.png)
+
 **Components**
 1. **Frontend (Static Website)** → Hosted in S3, allows users to submit text.  
 2. **API Gateway** → Handles `/synthesize` and `/task/{id}` endpoints.  
@@ -160,3 +163,8 @@ Support for long text with multipart Polly synthesis
 
 🧑‍💻 Author
 Built by Azameti Matthew (Dharius7)
+
+```
+---
+## 🏗 Architecture
+![System Architecture](assets/sitepic.png) 
