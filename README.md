@@ -132,6 +132,13 @@ AWS-Text-to-Speech-app/
 - AWS CLI configured (`aws configure`)  
 - AWS SAM CLI installed  
 
+---
+
+## 🚀 Live Link
+👉 [Click here to use the app](http://tts-website-darius.s3-website-us-east-1.amazonaws.com)
+
+---
+
 #### Deploy
 ```bash
 sam build
@@ -148,11 +155,6 @@ API authentication (API keys / Cognito)
 CI/CD pipeline with GitHub Actions
 
 Support for long text with multipart Polly synthesis
-
----
-
-## 🚀 Live Link
-👉 [Click here to use the app](http://tts-website-darius.s3-website-us-east-1.amazonaws.com)
 
 ---
 
