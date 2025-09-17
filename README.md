@@ -148,6 +148,3 @@ Support for long text with multipart Polly synthesis
 
 🧑‍💻 Author
 Built by Azameti Matthew (Dharius7)
-
-
-<video controls src="Text to Speech Converter - Personal - Microsoft​ Edge 2025-09-16 23-58-50.mp4" title="Text to Speech Converter"></video>
