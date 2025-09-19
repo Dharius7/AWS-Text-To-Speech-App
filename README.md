@@ -96,7 +96,7 @@ Users can input text through a web frontend, which invokes an API Gateway endpoi
 - **Amazon S3** (static website hosting + audio storage)  
 - **Amazon API Gateway** (RESTful APIs with CORS)  
 - **IAM Roles & Policies** (secure access)  
-- **AWS SAM** (infrastructure as code)  
+- **AWS SAM** (infrastructure as code) CloudFormation  
 
 ---
 
