@@ -71,6 +71,25 @@ Users can input text through a web frontend, which invokes an API Gateway endpoi
 
 ---
 
+## 1. Security Considerations
+
+- **IAM Least-Privilege Access**: Ensure Lambda roles are restricted to only required services (e.g., Polly + S3).  
+- **API Gateway Security**: Apply rate limiting, request validation, and CORS restrictions to protect endpoints.  
+- **Data Protection**: Keep S3 buckets private and enforce secure access policies.  
+- **Temporary Access**: Use pre-signed URLs for controlled and time-limited file retrieval.  
+- **Input Validation**: Sanitize and validate user inputs to prevent malicious payloads and injection attacks.  
+
+---
+
+## 2. Cost Optimization
+
+- **Serverless Pay-as-You-Go Model**: Leverage Lambda and API Gateway to avoid upfront infrastructure costs.  
+- **S3 Lifecycle Policies**: Automatically delete audio files after a set time to save on storage costs.  
+- **CloudWatch Monitoring**: Track execution time and optimize performance to reduce costs.  
+- **CloudFront Caching**: Cache static and frequently accessed content to reduce repeated API calls and bandwidth usage.  
+
+---
+
 ### 4. AWS Services Used
 - **AWS Lambda** (serverless compute)  
 - **Amazon Polly** (text-to-speech)  
